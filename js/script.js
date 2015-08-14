@@ -9,13 +9,17 @@ $(".pluto").click(function(){
   $(".info").addClass("hidden");
 $(".info-pluto").toggleClass("hidden");
 });
-
   
 $(".name").addClass("hidden");
 $(".planet").hover(function(){
          $(this).children(".name").toggleClass("hidden");
+         
 });
-
+$(".sun").click(function(){
+  $(".info").addClass("hidden");
+$(".sun-info").toggleClass("hidden");
+});
+  
  });
 
 
